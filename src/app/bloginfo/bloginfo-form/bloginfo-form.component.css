@@ -1,0 +1,16 @@
+mat-form-field{
+  width: 80%;
+  margin-top: 20px;
+  padding: 5px;
+}
+input[type="file"]{
+  display: none;
+}
+.custom-img-priview{
+  height: 300px;
+  border: 1px solid #000;
+  width: 100%;
+  -webkit-box-shadow: 2px 2px 2px #ffffff;
+  -moz-box-shadow:  2px 2px 2px #ffffff;
+  box-shadow:  2px 2px 2px #ffffff;
+}

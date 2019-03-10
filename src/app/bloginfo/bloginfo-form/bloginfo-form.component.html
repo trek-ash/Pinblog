@@ -1,0 +1,30 @@
+<div class="text-black">
+  <h3>
+    Welcome! Start writing your blog by following simple steps.
+  </h3>
+</div>
+<mat-card class="mt-5">
+  <form [formGroup]="bloginfoform" (submit)="onInfoFormSubmit()" >
+  <div class="row text-center">
+    <div class="col-md-8 pt-3">
+      <mat-form-field>
+        <input type="text" matInput
+               placeholder="Title of the blog"
+               formControlName="Title">
+      </mat-form-field>
+      <mat-form-field>
+        <input type="text" matInput placeholder="Brief description of the blog" formControlName="Brief">
+      </mat-form-field><br><br>
+      <button mat-flat-button color="primary">Proceed</button>
+    </div>
+    <div class="col-md-4">
+      <div class="custom-img-priview">
+
+      </div>
+      <input type="file" #image><br>
+      <button type="button" mat-button (click)="image.click()">Add image</button>
+    </div>
+  </div>
+  </form>
+</mat-card>
+

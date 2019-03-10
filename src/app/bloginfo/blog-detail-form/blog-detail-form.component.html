@@ -1,0 +1,11 @@
+<mat-card class="text-center">
+  <form [formGroup]="blogDetailForm" (submit)="onBlogSubmit()">
+    <mat-form-field>
+      <input type="text" matInput name="Title" formControlName="Title">
+    </mat-form-field>
+    <mat-form-field>
+      <textarea rows="5" matInput placeholder="Content" formControlName="Content"></textarea>
+    </mat-form-field><br>
+    <button mat-raised-button color="accent" class="mr-3">Save</button>
+   </form>
+</mat-card>

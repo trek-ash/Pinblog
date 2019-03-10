@@ -1,0 +1,19 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6 border-right">
+      <h2>Blogs</h2><br>
+      <div *ngFor="let blog of Blogs">
+        <div>{{blog.title}}</div>
+        <div>{{blog.content}}</div>
+        <br>
+      </div>
+
+    </div>
+    <div class="col-md-6 text-center">
+      <div class="mt-5">
+        <button mat-raised-button color="primary" routerLink="/info">Create Blog</button>
+      </div>
+    </div>
+  </div>
+
+</div>
