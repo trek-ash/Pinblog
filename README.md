@@ -7,7 +7,7 @@ This is a blogging platform where users can post there blogs and relevant blogs 
 Basic Feed that shows blogs fetched from db.
 User can add their blog.
 
-##Upcoming features
+## Upcoming features
 
 Users will be authorised.
 Enhanced Content editor.
