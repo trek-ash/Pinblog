@@ -9,12 +9,13 @@ User can add their blog.
 
 ## Used Languages
 
-Backend: node.js, express
-Database: mongodb (using mongoose package in node.js)
+Backend: node.js, express<br>
+Database: mongodb (using mongoose package in node.js)<br>
 Frontend: Angular 
 
 ## Upcoming features
 
+Add main-image to the blog.<br>
 Users will be authorised.<br>
 Enhanced Content editor.<br>
 Add/Delete/Mpdify Post.<br>
